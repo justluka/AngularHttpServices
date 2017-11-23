@@ -29,6 +29,8 @@
       }
     }
   ],
+  
+  
   "e2e": {
     "protractor": {
       "config": "./protractor.conf.js"
@@ -53,8 +55,13 @@
       "config": "./karma.conf.js"
     }
   },
+
+  
   "defaults": {
     "styleExt": "css",
-    "component": {}
+    "component": {},
+    
   }
+
+  
 }
