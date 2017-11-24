@@ -1,8 +1,4 @@
 
-export class AppError{
-
-    constructor(originalError?: any){
-
-        
-    }
+export class AppError { 
+    constructor(public originalError?: any) {}
 }
